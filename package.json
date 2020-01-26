@@ -1,0 +1,25 @@
+{
+	"name": "sve",
+	"description": "sve app",
+	"version": "1.0.0",
+	"private": true,
+	"dependencies": {
+		"@babel/core": "^7.6.4",
+		"@babel/preset-env": "^7.6.3",
+		"@babel/runtime": "^7.7.4",
+		"core-js": "^3.4.2",
+		"express": "^4.17.1",
+		"flowfs": "^3.10.0",
+		"node-sass": "^4.12.0",
+		"rollup": "^1.25.0",
+		"rollup-plugin-commonjs": "^10.1.0",
+		"rollup-plugin-node-resolve": "^5.2.0",
+		"rollup-plugin-svelte": "^5.1.0",
+		"svelte": "^3.12.0",
+		"svelte-view-engine": "^8.0.0",
+		"terser": "^4.3.9"
+	},
+	"scripts": {
+		"start": "node src/main.js"
+	}
+}

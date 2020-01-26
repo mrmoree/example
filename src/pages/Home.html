@@ -1,0 +1,14 @@
+<script>
+import payload from "svelte-view-engine/payload";
+import Counter from "../components/Counter.svelte";
+
+let {
+	initialCount,
+} = payload.get();
+</script>
+
+<style>
+
+</style>
+
+<Counter count={initialCount}/>
